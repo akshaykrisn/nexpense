@@ -13,7 +13,7 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 - Run Flutter package getter
 ``` flutter pub get ```
 - Run on your preferred platform
-``` flutter run ```
+``` flutter run ``` or 
 ``` flutter run -d ```
 
 ## Features
