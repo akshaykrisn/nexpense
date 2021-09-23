@@ -24,7 +24,6 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 ## Video Demo
 
 #### https://youtu.be/y2JmsmkK8Pw
-[![Nexpense - Video Demo]()](https://youtu.be/y2JmsmkK8Pw)
 
 
 ## Install instructions
