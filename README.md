@@ -9,7 +9,7 @@
 + It will be fixed in future using cached memory and user authentication.
 ```
 
-AppName & Author  | Android APK [recommended] | Web App
+Appname & Author  | Android APK [recommended] | Web App
 ------------- | ------------- | ------------- 
 Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/releases/tag/APK) | [Deployed Web App](https://edaxe.github.io) 
 
