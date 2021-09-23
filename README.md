@@ -37,5 +37,6 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 
 ## Instructions to use your own spreadsheet
 
-- Follow this guide to create your own API keys 
+- Follow this guide to create your own API keys.
 > https://github.com/edaxe/nexpense/blob/main/release/1.png
+- Add the keys to /lib/google_sheets_api.dart
