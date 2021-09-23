@@ -20,6 +20,10 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 | ![](https://github.com/edaxe/nexpense/blob/main/release/1.png)  | ![](https://github.com/edaxe/nexpense/blob/main/release/2.png) | ![](https://github.com/edaxe/nexpense/blob/main/release/3.png) |
 | ------------- | ------------- | ------------- |
 
+## Video Demo
+
+https://www.youtube.com/watch?v=y2JmsmkK8Pw
+
 ## Install instructions
 
 - Clone the project using terminal or download ZIP or just download the APK
