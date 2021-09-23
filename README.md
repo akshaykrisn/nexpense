@@ -2,6 +2,13 @@
 
 ## A simple cross-platform Expense-Tracker that uses GSheets API to store and retrieve your expenses in a Google spreadsheet.
 
+## Note
+
+```diff
+- The loading time is slow and takes around 15-20 seconds. Please don't do anything while it's loading.
++ It will be fixed in future using cached memory and user authentication.
+```
+
 AppName & Author  | Android APK [recommended] | Web App
 ------------- | ------------- | ------------- 
 Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/releases/tag/APK) | [Deployed Web App](https://edaxe.github.io) 
@@ -10,13 +17,6 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 
 | ![](https://github.com/edaxe/nexpense/blob/main/release/1.png)  | ![](https://github.com/edaxe/nexpense/blob/main/release/2.png) | ![](https://github.com/edaxe/nexpense/blob/main/release/3.png) |
 | ------------- | ------------- | ------------- |
-
-## Note
-
-```diff
-- The loading time is slow and takes around 15-20 seconds. Please don't do anything while it's loading.
-+ It will be fixed in future using cached memory and user authentication.
-```
 
 ## Install instructions
 
