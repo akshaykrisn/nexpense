@@ -11,6 +11,13 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 | ![](https://github.com/edaxe/nexpense/blob/main/release/1.png)  | ![](https://github.com/edaxe/nexpense/blob/main/release/2.png) | ![](https://github.com/edaxe/nexpense/blob/main/release/3.png) |
 | ------------- | ------------- | ------------- |
 
+## Note
+
+```diff
+- The loading time is slow and takes around 15-20 seconds. Please don't do anything while it's loading.
++ It will be fixed in future using cached memory and user authentication.
+```
+
 ## Install instructions
 
 - Clone the project using terminal or download ZIP/APK
