@@ -4,7 +4,7 @@
 
 Icon  | Banner | Download
 ------------- | ------------- | ------------- 
-![](https://github.com/edaxe/nexpense/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) | [Deployed Web App](https://edaxe.github.io) [Download APK](https://github.com/edaxe/nexpense/releases/tag/APK)
+![](https://raw.githubusercontent.com/edaxe/nexpense/main/release/icon.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) | [Deployed Web App](https://edaxe.github.io) [Download APK](https://github.com/edaxe/nexpense/releases/tag/APK)
 
 ## Features
 
