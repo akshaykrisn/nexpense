@@ -22,7 +22,7 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 
 ## Install instructions
 
-- Clone the project using terminal or download ZIP/APK
+- Clone the project using terminal or download ZIP or just download the APK
 ``` git clone https://github.com/edaxe/nexpense.git```
 - Run Flutter package getter
 ``` flutter pub get ```
