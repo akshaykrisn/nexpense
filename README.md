@@ -6,6 +6,10 @@ AppName & Author  | Android APK [recommended] | Web App
 ------------- | ------------- | ------------- 
 Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/releases/tag/APK) | [Deployed Web App](https://edaxe.github.io) 
 
+## Screenshots
+
+| ![](https://github.com/Axeey/Fluke/blob/master/store/1.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/2.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/3.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/4.png) |
+
 ## Install instructions
 
 - Clone the project using terminal or download ZIP/APK
@@ -16,6 +20,8 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 ``` flutter run ``` or 
 ``` flutter run -d ```
 
+
+
 ## Features
 
 > - Firebase/Facebook Developer Support - User authentication (phone/email), Verification (facebook phone verfication), Firestore, Realtime Database, Hosting (fluke.ml discontinued);
@@ -23,12 +29,6 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 > - UX/UI with halo/AI animation created/forked from Github OSPs;
 > - Compatible with Android (4.1+) - Smartphone/Tablet;
 > - Support Live Quizzes much like Flipkart Games;
-
-## Playstore graphics 
-
-| ![](https://github.com/Axeey/Fluke/blob/master/store/1.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/2.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/3.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/4.png) |
-| ------------- | ------------- | ------------- | ------------- | 
-| ![](https://github.com/Axeey/Fluke/blob/master/store/5.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/6.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/7.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/8.png)  | 
 
 ## Playstore description 
 
