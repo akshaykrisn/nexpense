@@ -4,7 +4,7 @@
 
 Icon  | Banner | Download
 ------------- | ------------- | ------------- 
-![](https://github.com/edaxe/nexpense/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) | [Download APK](https://github.com/Axeey/Fluke/blob/master/release/Fluke.apk)+'  '+ [Download APK](https://github.com/Axeey/Fluke/blob/master/release/Fluke.apk)
+![](https://github.com/edaxe/nexpense/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) | [Download APK](https://github.com/Axeey/Fluke/blob/master/release/Fluke.apk) [Download APK](https://github.com/Axeey/Fluke/blob/master/release/Fluke.apk)
 
 ## Features
 
