@@ -8,7 +8,7 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 
 ## Screenshots
 
-| ![](https://github.com/Axeey/Fluke/blob/master/store/1.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/2.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/3.png) |
+| ![](https://github.com/edaxe/nexpense/blob/main/release/1.png)  | ![](https://github.com/edaxe/nexpense/blob/main/release/2.png) | ![](https://github.com/edaxe/nexpense/blob/main/release/3.png) |
 | ------------- | ------------- | ------------- |
 
 
