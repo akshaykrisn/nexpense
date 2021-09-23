@@ -2,9 +2,9 @@
 
 ### A simple cross-platform Expense-Tracker that uses GSheets API to store and retrieve your expenses in a spreadsheet.
 
-Icon  | Banner | Download
+Icon  | Web App | Android APK(recommended)
 ------------- | ------------- | ------------- 
-![](https://github.com/edaxe/nexpense/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) | [Deployed Web App](https://edaxe.github.io) [Download APK](https://github.com/edaxe/nexpense/releases/tag/APK)
+![](https://github.com/edaxe/nexpense/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png) | [Deployed Web App](https://edaxe.github.io) |  [Download APK](https://github.com/edaxe/nexpense/releases/tag/APK)
 
 ## Features
 
