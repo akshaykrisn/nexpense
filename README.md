@@ -23,19 +23,19 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 
 ## Working Features
 
-> - Google Spreadsheet API as database [Universal database].
-> - Add Transaction with important data such as Category/Name/Amount/In or Out.
-> - View Spending Analysis with a Pie Chart.
-> - Catorization based on usage with unique icons & colors.
+- Google Spreadsheet API as database [Universal database].
+- Add Transaction with important data such as Category/Name/Amount/In or Out.
+- View Spending Analysis with a Pie Chart.
+- Catorization based on usage with unique icons & colors.
 
 ## Upcoming Features
 
-> - Firebase Authentication.
-> - Databases unique to authenticated users.
-> - Option to modify/delete a transaction.
-> - Locally cached database.
+- Firebase Authentication.
+- Databases unique to authenticated users.
+- Option to modify/delete a transaction.
+- Locally cached database.
 
 ## Instructions to use your own spreadsheet
 
-> Follow this guide to create your own API keys 
+- Follow this guide to create your own API keys 
 [](https://github.com/edaxe/nexpense/blob/main/release/1.png)
