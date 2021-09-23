@@ -6,7 +6,8 @@
 
 ```diff
 - The loading time is slow and takes around 15-20 seconds. Please don't do anything while it's loading.
-- You can only load the data once per minute. Multiple instances of the same app running together will not load any data and create unhandled errors.
+- You can only load the data once per minute. 
+- Multiple instances of the same app running together will not load any data and create unhandled errors.
 + It will be fixed in future using cached memory and user authentication.
 ```
 
