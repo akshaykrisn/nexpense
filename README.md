@@ -24,7 +24,7 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 ## Video Demo
 
 #### https://youtu.be/y2JmsmkK8Pw
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png)](https://youtu.be/y2JmsmkK8Pw)
 
 
 ## Install instructions
