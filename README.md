@@ -1,7 +1,8 @@
 # 💸 Nexpense
 # [Android & Web] [For Srmkzilla]
-## [Firebase Integration in progress in the branch "withfirebase"]
-
+```
++ ## [Firebase Integration in progress in the branch "withfirebase"]
+```
 
 ## A simple cross-platform Expense-Tracker that uses GSheets API to store and retrieve your expenses in a Google spreadsheet.
 
