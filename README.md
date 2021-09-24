@@ -1,5 +1,5 @@
 # 💸 Nexpense
-# [Android & Web] [Firebased]
+# [Android & Web] [Firebase]
 
 ## A simple cross-platform Expense-Tracker that uses GSheets API to store and retrieve your expenses in a Google spreadsheet.
 
