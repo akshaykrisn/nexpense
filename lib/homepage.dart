@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:nexpense/chart.dart';
 import 'package:flutter/cupertino.dart';
@@ -34,6 +33,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     _user = widget._user;
+    print(_user.uid);
     super.initState();
   }
 
