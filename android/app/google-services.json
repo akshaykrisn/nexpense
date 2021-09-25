@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "139915516822",
+    "project_id": "nexpense-2",
+    "storage_bucket": "nexpense-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139915516822:android:55d92d2174be9f9e62dbb7",
+        "android_client_info": {
+          "package_name": "com.example.nexpense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139915516822-dpnk29514b47s7do8gb8ofocjslqum5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nexpense",
+            "certificate_hash": "65e8ae4f50ebf4a266229b9c408020b0b080277b"
+          }
+        },
+        {
+          "client_id": "139915516822-hq40uvqo5hdmlo8tb00o64vr8vp7hjtb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBsxdTI9G-Ck8M5yO8ag9bYsEl5nc6sAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139915516822-hq40uvqo5hdmlo8tb00o64vr8vp7hjtb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
