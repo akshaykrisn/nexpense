@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:nexpense/chart.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -9,13 +10,18 @@ import 'top_card.dart';
 import 'transaction.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({Key? key, required User user})
+      : _user = user,
+        super(key: key);
 
+  final User _user;
   @override
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
+  late User _user;
+
   // collect user input
   final _textcontrollerAMOUNT = TextEditingController();
   final _textcontrollerITEM = TextEditingController();
@@ -24,16 +30,32 @@ class _HomePageState extends State<HomePage> {
   bool _isIncome = false;
   String dropdownValue = 'Others';
 
-  // enter the new transaction into the spreadsheet
-  void _enterTransaction() {
-    if (_textcontrollerITEM.text == "") _textcontrollerITEM.text = "Unknown";
-    GoogleSheetsApi.insert(
-      _textcontrollerITEM.text,
-      _textcontrollerAMOUNT.text,
-      _isIncome,
-      dropdownValue,
-    );
-    setState(() {});
+  @override
+  void initState() {
+    _user = widget._user;
+    print(_user.uid);
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // start loading until the data arrives
+    if (GoogleSheetsApi.loading == true && timerHasStarted == false) {
+      startLoading();
+    }
+    return Scaffold(backgroundColor: Colors.grey[350], body: getHomeB());
+  }
+
+  // wait for the data to be fetched from google sheets
+  bool timerHasStarted = false;
+  void startLoading() {
+    timerHasStarted = true;
+    Timer.periodic(Duration(seconds: 1), (timer) {
+      if (GoogleSheetsApi.loading == false) {
+        setState(() {});
+        timer.cancel();
+      }
+    });
   }
 
   // new transaction
@@ -82,7 +104,10 @@ class _HomePageState extends State<HomePage> {
                                   hintText: 'Amount',
                                 ),
                                 validator: (text) {
-                                  if (text == null || text.isEmpty) {
+                                  final number = num.tryParse(text!);
+                                  if (text == null ||
+                                      text.isEmpty ||
+                                      num.tryParse(text) == null) {
                                     return 'Enter an amount';
                                   }
                                   return null;
@@ -195,6 +220,18 @@ class _HomePageState extends State<HomePage> {
         });
   }
 
+  // enter the new transaction into the spreadsheet
+  void _enterTransaction() {
+    if (_textcontrollerITEM.text == "") _textcontrollerITEM.text = "Unknown";
+    GoogleSheetsApi.insert(
+      _textcontrollerITEM.text,
+      _textcontrollerAMOUNT.text,
+      _isIncome,
+      dropdownValue,
+    );
+    setState(() {});
+  }
+
   // Show chart
   void showChartFromHome(List<MyTransaction> items) {
     showDialog(
@@ -207,28 +244,6 @@ class _HomePageState extends State<HomePage> {
             },
           );
         });
-  }
-
-  // wait for the data to be fetched from google sheets
-  bool timerHasStarted = false;
-  void startLoading() {
-    timerHasStarted = true;
-    Timer.periodic(Duration(seconds: 1), (timer) {
-      if (GoogleSheetsApi.loading == false) {
-        setState(() {});
-        timer.cancel();
-      }
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // start loading until the data arrives
-    if (GoogleSheetsApi.loading == true && timerHasStarted == false) {
-      startLoading();
-    }
-
-    return Scaffold(backgroundColor: Colors.grey[350], body: getHomeB());
   }
 
   Center getHomeB() {

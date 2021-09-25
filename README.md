@@ -1,8 +1,14 @@
 # 💸 Nexpense
-# [Android & Web] [For Srmkzilla]
+
+## Firebase Checklist
+
 ```diff
-+ Firebase Integration in progress in the branch "withfirebase"
++ [✓] Google Sign In
+- [ ] Authenticated Database
+- [ ] User Settings
 ```
+
+# [Android & Web] [For Srmkzilla]
 
 ## A simple cross-platform Expense-Tracker that uses GSheets API to store and retrieve your expenses in a Google spreadsheet.
 

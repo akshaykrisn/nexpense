@@ -33,6 +33,24 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyA6NSsV7QQSw-rkBQ3f4qMZNWdOjIZlAe8",
+      authDomain: "nexpense-2.firebaseapp.com",
+      projectId: "nexpense-2",
+      storageBucket: "nexpense-2.appspot.com",
+      messagingSenderId: "139915516822",
+      appId: "1:139915516822:web:99d91f2434a6385d62dbb7",
+      measurementId: "G-HPC5NEKT00"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
   <script>
     var serviceWorkerVersion = null;
     var scriptLoaded = false;
