@@ -4,7 +4,7 @@
 
 ```diff
 + [✓] Google Sign In
-- [ ] Authenticated Database
+- [ ] Migration from Sheets API to Firebase Firestore
 - [ ] User Settings
 ```
 
