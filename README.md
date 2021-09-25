@@ -29,6 +29,8 @@ Nexpense - Akshay Krishna |  [Download APK](https://github.com/edaxe/nexpense/re
 
 | ![](https://github.com/edaxe/nexpense/blob/main/release/1.png)  | ![](https://github.com/edaxe/nexpense/blob/main/release/2.png) | ![](https://github.com/edaxe/nexpense/blob/main/release/3.png) |
 | ------------- | ------------- | ------------- |
+| ![](https://github.com/edaxe/nexpense/blob/main/release/4.png)  | 
+| ------------- | 
 
 ## Video Demo
 
