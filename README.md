@@ -1,4 +1,13 @@
 # 💸 Nexpense
+
+## Firebase Checklist
+
+```diff
++ [✓] Google Sign In
+- [ ] Authenticated Database
+- [ ] User Settings
+```
+
 # [Android & Web] [Firebase]
 
 ## A simple cross-platform Expense-Tracker that uses GSheets API to store and retrieve your expenses in a Google spreadsheet.
