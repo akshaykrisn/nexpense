@@ -104,7 +104,10 @@ class _HomePageState extends State<HomePage> {
                                   hintText: 'Amount',
                                 ),
                                 validator: (text) {
-                                  if (text == null || text.isEmpty) {
+                                  final number = num.tryParse(text!);
+                                  if (text == null ||
+                                      text.isEmpty ||
+                                      num.tryParse(text) == null) {
                                     return 'Enter an amount';
                                   }
                                   return null;
