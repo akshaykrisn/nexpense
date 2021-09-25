@@ -12,12 +12,17 @@ import 'top_card.dart';
 import 'transaction.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({Key? key, required User user})
+      : _user = user,
+        super(key: key);
+
+  final User _user;
   @override
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
+  late User _user;
   // collect user input
   final _textcontrollerAMOUNT = TextEditingController();
   final _textcontrollerITEM = TextEditingController();
@@ -48,6 +53,8 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
+    _user = widget._user;
+    print(_user.displayName);
     super.initState();
   }
 
