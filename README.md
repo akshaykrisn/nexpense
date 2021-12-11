@@ -8,7 +8,7 @@
 - [ ] User Settings
 ```
 
-# [Android & Web] [For Srmkzilla]
+# [Android & Web]
 
 ## A simple cross-platform Expense-Tracker that uses GSheets API to store and retrieve your expenses in a Google spreadsheet.
 
